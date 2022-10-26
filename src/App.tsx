@@ -1,4 +1,3 @@
-// App.tsx
 import React from 'react'
 import MyFirstComponent from './components/myFirstComponent';
 
