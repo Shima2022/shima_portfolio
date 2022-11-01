@@ -1,14 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import SomeExampleComponent from './components/example/someExampleComponent';
+import MyFirstComponent from './components/myFirstComponent';
+import styles from './index.module.scss';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
+import Navbar from './components/navbar/navbar';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <div className={styles.container}>
+      <Link to="https://shima2022.github.io/shima_portfolio/">Home</Link>
+      <Link to="first">My First Component</Link>
+      <Link to="example">SomeExampleComponent</Link>
+    </div>
+      <Routes>
+        <Route path='/' element={<App />}></Route>
+        <Route path='example' element={<SomeExampleComponent />} />
+        <Route path='/first' element={<MyFirstComponent />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
