@@ -20,11 +20,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <div className={styles.container}>
-      <Link to="https://shima2022.github.io/shima_portfolio/">Home</Link>
-      <Link to="first">My First Component</Link>
-      <Link to="example">SomeExampleComponent</Link>
-    </div>
+        <Navbar/>
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='example' element={<SomeExampleComponent />} />
