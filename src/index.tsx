@@ -3,13 +3,11 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/myFirstComponent';
-import styles from './index.module.scss';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 import Navbar from './components/navbar/navbar';
 
