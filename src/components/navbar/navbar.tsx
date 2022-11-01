@@ -11,7 +11,7 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
-      <Link to="https://shima2022.github.io/shima_portfolio/">Home</Link>
+      <Link to="/">Home</Link>
       <Link to="first">My First Component</Link>
       <Link to="example">SomeExampleComponent</Link>
     </div>

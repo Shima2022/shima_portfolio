@@ -1,5 +1,10 @@
 .container {
-    background: wheat;
-    align-items: center;
+    background: rgb(224, 191, 129);
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    
 }
+
