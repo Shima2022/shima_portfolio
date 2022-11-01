@@ -5,6 +5,7 @@ import ClickCount from './components/clickCount';
 const App: React.FC = () => {
   return (
     <div>
+      <SomeExampleComponent/>
       <ClickCount />
     </div>
   )

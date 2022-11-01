@@ -12,7 +12,7 @@ const ClickCount: React.FC<ClickCountProps> = () => {
   const [count, setCount] = useState(0);
 
 useEffect (() => {
- document.title = 'Clicked ${count} times';
+ document.title = `You Clicked ${count} times`;
 });
 
   return (
