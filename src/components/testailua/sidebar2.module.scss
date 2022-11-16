@@ -1,0 +1,37 @@
+@import '../../environment.module.scss';
+
+.container {
+  position: absolute;
+
+  width: #{$sidebar-width};
+  background: hsl(0, 9%, 58%);
+
+  height: 100%;
+  width: 50px;
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container .sidebarItem {
+  height: 60px;
+  background: #786704;
+  width: 0%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 2px 0;
+}
+
+.container .sidebarItem:hover {
+  opacity: 0.8;
+}

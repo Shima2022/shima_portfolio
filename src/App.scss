@@ -1,0 +1,22 @@
+//global style
+$primary-color: #847106;
+
+
+@font-face {
+    font-family: 'KolkerBrush-Regular';
+    src: url('./assets/fonts/KolkerBrush-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'LibreBaskerville-Bold';
+    src: url('./assets/fonts/LibreBaskerville-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url('./assets/fonts/LibreBaskerville-Italic.ttf') format('ttf');
+}
+
+input,
+textarea {
+    font-family: 'KolkerBrush-Regular';
+}

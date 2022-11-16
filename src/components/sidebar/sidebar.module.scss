@@ -1,0 +1,174 @@
+@import '../../environment.module.scss';
+
+.container {
+  position: absolute;
+
+  width: #{$sidebar-width};
+  background: hsl(0, 9%, 58%);
+
+  height: 95%;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 90%;
+  background: #786704;
+  width: 3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 3px 0;
+}
+
+.container .sidebarItem:hover {
+  opacity: 0.8;
+}
+
+// //Logo and sub-logo/sidebar
+// .nav-bar {
+//   display: flex;
+//   flex-direction: column;
+//   background: hsl(0, 9%, 58%);
+//   width: 50px;
+//   height: 90%;
+//   min-height: 500px;
+//   margin-block: auto;
+//   border-radius: 0 30px 30px 0;
+  
+
+//   .logo {
+//     display: block;
+//     padding: 8px 0;
+
+//     img {
+//       display: block;
+//       margin: 8px auto;
+//       width: 24px;
+//       height: auto;
+
+//       &.sub-logo {
+//         width: 50px;
+//       }
+//     }
+//   }
+
+//   //Icons positions
+//   nav {
+//     display: block;
+//     text-align: center;
+//     height: 210px;
+//     margin-top: -120px;
+//     width: 100%;
+
+//     //Icons sizes
+//     a {
+//       font-size: 22px;
+//       color: rgb(61, 61, 63);
+//       display: block;
+//       line-height: 51px;
+//       height: 51px;
+//       position: relative;
+//       text-decoration: none;
+
+//       //Text decoration
+//       i {
+//         transition: all 0.3s ease-out;
+//       }
+
+//       &:hover {
+//         color: #6b5c04;
+
+//         svg {
+//           opacity: 0;
+//         }
+
+//         &:after {
+//           opacity: 1;
+//         }
+//       }
+
+//       //Icon text
+//       &:after {
+//         content: '';
+//         font-size: 9px;
+//         letter-spacing: 2px;
+//         position: absolute;
+//         bottom: 0;
+//         display: block;
+//         width: 100%;
+//         text-align: center;
+//         opacity: 0;
+//         -webkit-transition: all 0.3s ease-out;
+//         transition: all 0.3s ease-out;
+//       }
+
+//       //home text
+//       &:first-child {
+//         &:after {
+//           content: 'HOME';
+//         }
+//       }
+//     }
+
+//     a.cv-link {
+//       &:after {
+//         content: 'CV';
+//       }
+//     }
+
+//     a.cv-link {
+//       &:after {
+//         content: 'Portfolio';
+//       }
+//     }
+
+//     a.contact-link {
+//       &:after {
+//         content: 'Contact';
+//       }
+//     }
+
+//     //Active route link
+//     a.active {
+//       svg {
+//         color: #6b5c04;
+//       }
+//     }
+//   }
+
+//   //Github&Linkedin icons
+//   ul {
+//     width: 100%;
+//     display: block;
+//     padding: 0;
+//     list-style: none;
+//     text-align: center;
+//     margin: 0;
+
+//     li {
+//       a {
+//         padding: 7px 0;
+//         display: block;
+//         font-size: 15px;
+//         line-height: 16px;
+//         color: #2f2f32;
+//       }
+
+//       &:hover {
+//         .anchor-icon {
+//           color: #6b5c04;
+//         }
+//       }
+//     }
+//   }
+// }
