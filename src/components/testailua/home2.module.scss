@@ -1,27 +1,28 @@
 @import '../../environment.module.scss';
 
 .container {
-  background: rgb(11, 3, 85);
+  background: rgb(8, 2, 67);
   height: 100vh;
 
   width: calc(100vw - #{$sidebar-width});
 
   padding-left: #{$sidebar-width};
 
-
 }
+
 h1 {
   color: #fff;
   font-size: 50px;
-  line-height: 53px;
+  line-height: 70vh;
   margin: 0;
   font-family: 'Coolvetica';
   font-weight: 400;
-}
+  
 
+}
 h2 {
   color: #fff;
-  margin-top: 20px;
+  margin-top: -200px;
   font-weight: 400;
   font-size: 20px;
   font-family: sans-serif;
@@ -31,7 +32,7 @@ h2 {
 
 h3 {
   color: #8d8d8d;
-  margin-top: 20px;
+  margin-top: 0px;
   font-weight: 400;
   font-size: 11px;
   font-family: sans-serif;

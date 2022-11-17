@@ -1,21 +1,21 @@
 import React from 'react'
 import styles from './home.module.scss'
 
-type Home2Props = {
+type HomeProps = {
 
 }
 
-const Home: React.FC<Home2Props> = () => {
+const Home: React.FC<HomeProps> = () => {
   return (
     <div className={styles.container}>
-      <h1>HELLO! <br/>Welcome to my page. My name is Shm
+      <h1>HELLO!<br />  
+        Welcome to my page. My name is Shm <br />
+        I am software developer student</h1> 
         <br />
-        I am software developer student
-        </h1>
-        {/*What i do*/}
-        <h2>Software developer</h2>
+        <h2>
+        Software developer
+        </h2>
       </div>
-
   )
 }
 

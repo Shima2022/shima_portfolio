@@ -6,7 +6,8 @@
   width: #{$sidebar-width};
   background: hsl(0, 9%, 58%);
 
-  height: 95%;
+  height: 100%;
+  width: 40px;
 
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -62,113 +63,112 @@
 //     }
 //   }
 
-//   //Icons positions
-//   nav {
-//     display: block;
-//     text-align: center;
-//     height: 210px;
-//     margin-top: -120px;
-//     width: 100%;
+  //Icons positions
+  nav {
+    display: block;
+    text-align: center;
+    height: 210px;
+    margin-top: -120px;
+    width: 100%;
 
-//     //Icons sizes
-//     a {
-//       font-size: 22px;
-//       color: rgb(61, 61, 63);
-//       display: block;
-//       line-height: 51px;
-//       height: 51px;
-//       position: relative;
-//       text-decoration: none;
+    //Icons sizes
+    a {
+      font-size: 22px;
+      color: rgb(61, 61, 63);
+      display: block;
+      line-height: 51px;
+      height: 51px;
+      position: relative;
+      text-decoration: none;
 
-//       //Text decoration
-//       i {
-//         transition: all 0.3s ease-out;
-//       }
+      //Text decoration
+      i {
+        transition: all 0.3s ease-out;
+      }
 
-//       &:hover {
-//         color: #6b5c04;
+      &:hover {
+        color: #6b5c04;
 
-//         svg {
-//           opacity: 0;
-//         }
+        svg {
+          opacity: 0;
+        }
 
-//         &:after {
-//           opacity: 1;
-//         }
-//       }
+        &:after {
+          opacity: 1;
+        }
+      }
 
-//       //Icon text
-//       &:after {
-//         content: '';
-//         font-size: 9px;
-//         letter-spacing: 2px;
-//         position: absolute;
-//         bottom: 0;
-//         display: block;
-//         width: 100%;
-//         text-align: center;
-//         opacity: 0;
-//         -webkit-transition: all 0.3s ease-out;
-//         transition: all 0.3s ease-out;
-//       }
+      //Icon text
+      &:after {
+        content: '';
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
 
-//       //home text
-//       &:first-child {
-//         &:after {
-//           content: 'HOME';
-//         }
-//       }
-//     }
+      //home text
+      &:first-child {
+        &:after {
+          content: 'HOME';
+        }
+      }
+    }
 
-//     a.cv-link {
-//       &:after {
-//         content: 'CV';
-//       }
-//     }
+    a.cv-link {
+      &:after {
+        content: 'CV';
+      }
+    }
 
-//     a.cv-link {
-//       &:after {
-//         content: 'Portfolio';
-//       }
-//     }
+    a.cv-link {
+      &:after {
+        content: 'Portfolio';
+      }
+    }
 
-//     a.contact-link {
-//       &:after {
-//         content: 'Contact';
-//       }
-//     }
+    a.contact-link {
+      &:after {
+        content: 'Contact';
+      }
+    }
 
-//     //Active route link
-//     a.active {
-//       svg {
-//         color: #6b5c04;
-//       }
-//     }
-//   }
+    //Active route link
+    a.active {
+      svg {
+        color: #6b5c04;
+      }
+    }
+  }
 
-//   //Github&Linkedin icons
-//   ul {
-//     width: 100%;
-//     display: block;
-//     padding: 0;
-//     list-style: none;
-//     text-align: center;
-//     margin: 0;
+  //Github&Linkedin icons
+  ul {
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
 
-//     li {
-//       a {
-//         padding: 7px 0;
-//         display: block;
-//         font-size: 15px;
-//         line-height: 16px;
-//         color: #2f2f32;
-//       }
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        color: #2f2f32;
+      }
 
-//       &:hover {
-//         .anchor-icon {
-//           color: #6b5c04;
-//         }
-//       }
-//     }
-//   }
-// }
+      &:hover {
+        .anchor-icon {
+          color: #6b5c04;
+        }
+      }
+    }
+  }

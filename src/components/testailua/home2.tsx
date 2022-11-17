@@ -8,14 +8,13 @@ type Home2Props = {
 const Home2: React.FC<Home2Props> = () => {
   return (
     <div className={styles.container}>
-      <h1>HELLO!</h1> 
+      <h1>HELLO!</h1>
+       <h2>Welcome to my page. My name is Shm. <br />
+        I am software developer student.</h2>
         <br />
-        <h2>
-          Welcome to my page. My name is Shm <br />
-          I am software developer student
-        </h2>
-        {/*What i do*/}
-        <h3>Software developer</h3>
+        <h3>
+          Software developer
+        </h3>
       </div>
 
   )

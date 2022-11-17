@@ -9,7 +9,7 @@ const Project: React.FC<ProjectProps> = () => {
   return (
     <div className={'styles container'}>
       <h1>
-        Varia project-job training
+        Varia project
       </h1>
     </div>
   )

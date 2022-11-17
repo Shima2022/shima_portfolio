@@ -1,6 +1,3 @@
-import { Link, NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/logo.png'
-// import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -8,12 +5,7 @@ import styles from './sidebar.module.scss'
 
 const Sidebar = () => {
     return (
-        //This going default home-page
-        <div className="nav-bar">
-            <Link className="logo" to='/'>
-                {/* <img src={Logo} alt="logo" /> */}
-            {/* <img className="sub-logo" src={LogoSubtitle} alt="Profile" /> */}
-            </Link>
+        <div>
                 <div className={styles.container}>
                     <div>className={styles.sidebarItem}<FontAwesomeIcon icon={faHome} color="#E9C46A"/></div>
                     <div>classNmae={styles.sidebarItem}<FontAwesomeIcon icon={faAddressBook} color="#E9C46A"/></div>
