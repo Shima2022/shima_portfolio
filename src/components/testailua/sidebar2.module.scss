@@ -11,27 +11,36 @@
 
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  
+
 
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  justify-content: center;
-}
+  justify-content: space-between;
+  .logo > img {
+    width: 80%;
+    margin: auto 5px;
+  }
+  .logo > img:first-child {
+    margin-top: 30px;
+  }
+  .logo > img:last-child {
+    margin-top: 0px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sidebarItem {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.container .sidebarItem {
-  height: 60px;
-  background: #786704;
-  width: 0%;
+    &:hover {
+      opacity: 0.8;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 2px 0;
-}
-
-.container .sidebarItem:hover {
-  opacity: 0.8;
+    }
+  }
 }

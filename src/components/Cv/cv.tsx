@@ -1,3 +1,4 @@
+import React from 'react'
 import './cv.scss'
 import
  {faCss3, 
@@ -8,20 +9,25 @@ import
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+    type CvProps = {
 
-const CV = () => {
-  return (
-    <div className='container cv-page'>
-      <div className='text'>
-        <h1>
-          EDUCATION
-          </h1>
-        <br />
-        <h2>WORK</h2>
-      </div>
+    }
+
+    const Cv: React.FC<CvProps> = () => {
+      return (
+        <div className={'Styles.container'}>
+          <div>
+            EDUCATION
+          </div>
+        </div>
+  )
+}
+
+  export default Cv
+
       
       
-      {/* Cube */}
+      {/* Cube
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
@@ -39,10 +45,5 @@ const CV = () => {
           <div className="face6">
             <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
           </div>
-        </div>
-      </div>
-    </div> 
-  )
-}
-
-export default CV
+        </div> */}
+      {/* </div> */}

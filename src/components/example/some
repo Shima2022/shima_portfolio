@@ -1,4 +1,4 @@
-<!-- //import Logo from '../../assets/images/logo.png'
+
 // import LogoSubtitle from '../../assets/images/logo_sub.png'
             
             <Link className="logo" to='/'>
