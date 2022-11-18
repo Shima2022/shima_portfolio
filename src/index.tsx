@@ -8,8 +8,8 @@ import {
 import Contact from './components/Contact/contact';
 import Cv from './components/Cv/cv';
 import Project from './components/Project/project';
-import Home from './components/Home/home';
-import Sidebar from './components/sidebar/sidebar';
+// import Home from './components/Home/home';
+// import Sidebar from './components/sidebar/sidebar';
 // import styles from './index.module.scss';
 import './index.module.scss';
 import Home2 from './components/testailua/home2';

@@ -1,10 +1,17 @@
 import { faAddressBook, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import styles from './sidebar2.module.scss'
 import Logo from '../../assets/images/logo.png'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import LogoSubtitle from '../../assets/images/logo-sub.png'
+import { ImLinkedin, } from 'react-icons/im'
+import { FaGithub } from 'react-icons/fa'
+import { BsHouseFill } from 'react-icons/bs'
+import { FaFileCsv } from 'react-icons/fa'
+import { BsFillPersonFill } from 'react-icons/bs'
+import { BsFillEnvelopeFill } from 'react-icons/bs'
+
+
 type Sidebar2Props = {
 
 }
@@ -24,30 +31,26 @@ const sidebar2 = () => {
 const Nav = () => {
   return (
     <nav>
-      <Link to="/" className={styles.sidebarItem}><a><FontAwesomeIcon icon={faHome} color="#E9C46A" /></a></Link>
-      <Link to="/cv" className={styles.sidebarItem}><a><FontAwesomeIcon icon={faAddressBook} color="#E9C46A" /></a></Link>
-      <Link to="/portfolio" className={styles.sidebarItem}><a><FontAwesomeIcon icon={faUser} color="#E9C46A" /></a></Link>
-      <Link to="/contact" className={styles.sidebarItem}><a><FontAwesomeIcon icon={faEnvelope} color="#E9C46A" /></a></Link>
+      <Link to="/" className={styles.sidebarItem}><a><BsHouseFill color="#E9C46A" /></a></Link>
+      <Link to="/cv" className={styles.sidebarItem}><a><FaFileCsv color="#E9C46A" /></a></Link>
+      <Link to="/portfolio" className={styles.sidebarItem}><a><BsFillPersonFill color="#E9C46A" /></a></Link>
+      <Link to="/contact" className={styles.sidebarItem}><a><BsFillEnvelopeFill color="#E9C46A" /></a></Link>
     </nav>
   )
 }
 
 const SocialMedia = () => {
   return (
-    <ul>
-      <li>
-        {/*Linkedin icon */}
-        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/shima-h/'>
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-        </a>
-      </li>
-      <li>
-        {/*Github icon */}
-        <a target="_blank" rel='noreferrer' href='https://github.com/Shima2022'>
-          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-        </a>
-      </li>
-    </ul>
+    <div
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      margin: '30px 0',
+      gap: '20px',
+    }}>
+      <a href="https://www.linkedin.com/in/shima-h/"><ImLinkedin color="darkgrey" size={20}/></a>
+      <a href="https://github.com/Shima2022"><FaGithub color="darkgrey" size={20}/></a>
+    </div>
   )
 }
 export default sidebar2
