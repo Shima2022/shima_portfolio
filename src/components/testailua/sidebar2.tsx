@@ -1,15 +1,11 @@
-import { faAddressBook, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import styles from './sidebar2.module.scss'
 import Logo from '../../assets/images/logo.png'
 import LogoSubtitle from '../../assets/images/logo-sub.png'
 import { ImLinkedin, } from 'react-icons/im'
-import { FaGithub } from 'react-icons/fa'
-import { BsHouseFill } from 'react-icons/bs'
-import { FaFileCsv } from 'react-icons/fa'
-import { BsFillPersonFill } from 'react-icons/bs'
-import { BsFillEnvelopeFill } from 'react-icons/bs'
+import { FaGithub, FaFileCsv } from 'react-icons/fa'
+import { BsHouseFill, BsFillPersonFill, BsFillEnvelopeFill  } from 'react-icons/bs'
 
 
 type Sidebar2Props = {

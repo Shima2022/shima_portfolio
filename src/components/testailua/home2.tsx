@@ -16,7 +16,6 @@ const Home2: React.FC<Home2Props> = () => {
           Software developer
         </h3>
       </div>
-
   )
 }
 

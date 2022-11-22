@@ -3,6 +3,7 @@
 //sidebar
 .container {
   position: absolute;
+  overflow: hidden;
 
   width: #{$sidebar-width};
   background: hsl(0, 9%, 56%);

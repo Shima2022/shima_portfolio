@@ -5,7 +5,7 @@
 //                 {/* <img src={Logo} alt="logo" /> */}
 //             {/* <img className="sub-logo" src={LogoSubtitle} alt="Profile" /> */}
 //             </Link> -->
-
+//---------------------------------------------------------------------------------
             // <ul>
                 //     <li>
                 //         <ImLinkedin color="red" size={20}/>
@@ -25,3 +25,65 @@
                 //     flexDirection: 'column',
                 //     margin: '30px 0'
                 //   }}>
+//---------------------------------------------------------------------------------
+                //cube
+            //     <div className="stage-cube-cont">
+            //     <div className="cubespinner">
+            //       <div className="face1">
+            //         <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            //       </div>
+            //       <div className="face2">
+            //         <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            //       </div>
+            //       <div className="face3">
+            //         <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            //       </div>
+            //       <div className="face4">
+            //         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            //       </div>
+            //       <div className="face6">
+            //         <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            //       </div>
+            //     </div>
+            //   </div
+ //---------------------------------------------------------------------------------
+
+//  <div className='contact-form'>
+//  <form>
+     
+//           className='half'>
+//                 <input 
+//                  type="text" 
+//                  name="name" 
+//                  placeholder="name" 
+//                  required />
+         
+//          <li className='half'>
+//                  <input 
+//                  type="email" 
+//                  name="email" 
+//                  placeholder="email" 
+//                  required />
+//          </li>
+//          <li>
+//                  <input 
+//                  placeholder="Subject" 
+//                  type="text" 
+//                  name="Subject"  
+//                  required />
+//          </li>
+//              <li>
+//                  <textarea 
+//                  placeholder="Message" 
+//                  name="Message" required 
+//                  ></textarea>
+//              </li>
+//          <li>
+//                  <input 
+//                  type="submit" 
+//                  className="flat-button" 
+//                  value="SEND" />
+//          </li>
+//      </ul>
+//  </form>
+// </div> 
