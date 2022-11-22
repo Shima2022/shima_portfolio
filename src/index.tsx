@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  BrowserRouter,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -24,7 +24,7 @@ const isProduction = window.location.href.includes('shima2022.github.io');
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={isProduction ? 'shima_portfolio' : ''}>
+    <Router basename={isProduction ? 'shima_portfolio' : ''}>
       <header>
         {/* <Sidebar /> */}
       </header>
@@ -38,6 +38,6 @@ root.render(
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
