@@ -5,7 +5,7 @@ type AboutMeProps = {
 
 }
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1>
