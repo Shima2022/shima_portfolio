@@ -7,12 +7,7 @@ import { ImLinkedin, } from 'react-icons/im'
 import { FaGithub, FaFileCsv } from 'react-icons/fa'
 import { BsHouseFill, BsFillPersonFill, BsFillEnvelopeFill  } from 'react-icons/bs'
 
-
-type Sidebar2Props = {
-
-}
-
-const sidebar2 = () => {
+const sidebar2: React.FC = () => {
   return (
     <div className={styles.container}>
       <Link className={styles.logo} to='/'>
@@ -24,18 +19,18 @@ const sidebar2 = () => {
     </div>
   )
 }
-const Nav = () => {
+const Nav: React.FC = () => {
   return (
     <nav>
-      <Link to="/" className={styles.sidebarItem}><a><BsHouseFill color="#E9C46A" /></a></Link>
-      <Link to="/cv" className={styles.sidebarItem}><a><FaFileCsv color="#E9C46A" /></a></Link>
-      <Link to="/portfolio" className={styles.sidebarItem}><a><BsFillPersonFill color="#E9C46A" /></a></Link>
-      <Link to="/contact" className={styles.sidebarItem}><a><BsFillEnvelopeFill color="#E9C46A" /></a></Link>
+      <Link to="/" className={styles.sidebarItem}><BsHouseFill color="#E9C46A" /></Link>
+      <Link to="/cv" className={styles.sidebarItem}><FaFileCsv color="#E9C46A" /></Link>
+      <Link to="/portfolio" className={styles.sidebarItem}><BsFillPersonFill color="#E9C46A" /></Link>
+      <Link to="/contact" className={styles.sidebarItem}><BsFillEnvelopeFill color="#E9C46A" /></Link>
     </nav>
   )
 }
 
-const SocialMedia = () => {
+const SocialMedia: React.FC = () => {
   return (
     <div
     style={{
