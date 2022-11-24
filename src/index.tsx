@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -20,11 +20,9 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const isProduction = window.location.href.includes('shima2022.github.io');
-
 root.render(
   <React.StrictMode>
-    <Router basename={isProduction ? 'shima_portfolio' : ''}>
+    <Router>
       <header>
         {/* <Sidebar /> */}
       </header>

@@ -1,48 +1,46 @@
+import React, { useRef } from 'react'
+import emailjs from "@emailjs/browser"
 import styles from './contact.module.scss'
-import React, { useState } from "react"
 
-const FORM_ENDPOINT = ""
 
-const Contact = () => {
-  <div className={styles.container}></div>
-  const [submitted, setsubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout ( () => {
-      setsubmitted(true);
-    }, 100);
-  }
-
-  if (submitted) {
-    return (
-      <><>
-        <h1>Thank you!</h1>
-      </></> 
-  );
-}
+const Contact: React.FC = () => {
   
-  return (
-    
-      <form 
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-      >
-        <><div>
-      <input type="text" placeholder='name' name='name' required />
-    </div><div>
-        <input type="email" placeholder='email' name='email' required />
-      </div><div>
-        <input placeholder="Subject" type="text" name="Subject" required />
-      </div><div>
-        <textarea placeholder="Message" name="Message" required></textarea>
-        <div>
-          <button type="submit"> Send a message </button>
-        </div>
-      </div></>  
-      </form> 
-        
+  //UseRef allows to persist values between renders.
+  const form = useRef();
+  //preventDefault cancels the event if it is cancelable.
+  const sendEmail = (e: { preventDefault: () => void; }) => {
+
+    emailjs.sendForm (
+      "service id",
+      "template id",
+      "form.current",
+      "user id"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        console.log("message sent");
+      },
+      (error) => {
+        console.log(error.text)
+      }
     )
   }
 
+  return (
+    <div className={styles.container}>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type='text' name='name' />
+          <label>Email</label>
+          <input type='email' name='mail' />
+          <label>Message</label>
+          <textarea name='message' />
+          <input type='submit' value='Send' />
+        </form>
+      </div>
+  )
+}
+
 export default Contact
+
