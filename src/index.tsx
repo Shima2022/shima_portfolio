@@ -11,10 +11,8 @@ import './index.module.scss';
 import Home2 from './components/testailua/home2';
 import Sidebar2 from './components/testailua/sidebar2';
 import AboutMe from './components/AboutMe/aboutMe';
-// import Home from './components/Home/home';
-// import Sidebar from './components/sidebar/sidebar';
-// import styles from './index.module.scss';
-//import Sidebar2 from './components/testailua/sidebar2';
+import { ModalContextProvider } from '@rintsin/common-components';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,20 +20,19 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Router>
-      <header>
-        {/* <Sidebar /> */}
-      </header>
-      <Sidebar2 />
-      <main>
-        <Routes>
-          {/* <Route path='/' element={<Home />} /> */}
-          <Route path='/' element={<Home2 />} />
-          <Route path='/cv' element={<Cv />} />
-          <Route path='/aboutMe' element={<AboutMe />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      </main>
-    </Router>
+    <ModalContextProvider>
+      <Router>
+        <Sidebar2 />
+        <main>
+          <Routes>
+            {/* <Route path='/' element={<Home />} /> */}
+            <Route path='/' element={<Home2 />} />
+            <Route path='/cv' element={<Cv />} />
+            <Route path='/aboutMe' element={<AboutMe />} />
+            {/* <Route path='/contact' element={<Contact />} /> */}
+          </Routes>
+        </main>
+      </Router>
+    </ModalContextProvider>
   </React.StrictMode>
 );

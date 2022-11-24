@@ -2,7 +2,7 @@
 
 //sidebar
 .container {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
 
   width: #{$sidebar-width};

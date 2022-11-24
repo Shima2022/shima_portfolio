@@ -6,6 +6,8 @@ import LogoSubtitle from '../../assets/images/logo-sub.png'
 import { ImLinkedin, } from 'react-icons/im'
 import { FaGithub, FaFileCsv } from 'react-icons/fa'
 import { BsHouseFill, BsFillPersonFill, BsFillEnvelopeFill  } from 'react-icons/bs'
+import { useModalContext } from '@rintsin/common-components'
+import Contact from '../Contact/contact'
 
 const sidebar2: React.FC = () => {
   return (
@@ -19,13 +21,25 @@ const sidebar2: React.FC = () => {
     </div>
   )
 }
+//contact modali
 const Nav: React.FC = () => {
+  const { modal } = useModalContext();
+
+  const display = () => {
+    modal({
+      content: <Contact />,
+    });
+  }
+
   return (
     <nav>
       <Link to="/" className={styles.sidebarItem}><BsHouseFill color="#E9C46A" /></Link>
       <Link to="/cv" className={styles.sidebarItem}><FaFileCsv color="#E9C46A" /></Link>
       <Link to="/portfolio" className={styles.sidebarItem}><BsFillPersonFill color="#E9C46A" /></Link>
-      <Link to="/contact" className={styles.sidebarItem}><BsFillEnvelopeFill color="#E9C46A" /></Link>
+      {/* <Link to="/contact" className={styles.sidebarItem}><BsFillEnvelopeFill color="#E9C46A" /></Link> */}
+      <div className={styles.sidebarItem}>
+        <BsFillEnvelopeFill onClick={display} color="#E9C46A" />
+      </div>
     </nav>
   )
 }

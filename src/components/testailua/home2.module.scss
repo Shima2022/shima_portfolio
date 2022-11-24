@@ -1,7 +1,6 @@
 @import '../../environment.module.scss';
 
 .container {
-  background: rgb(1, 25, 37);
   height: 100vh;
 
   width: calc(100vw - #{$sidebar-width});
@@ -13,7 +12,7 @@
 h1 {
   color: #fff;
   font-size: 50px;
-  line-height: 70vh;
+  // line-height: 70vh;
   margin: 0;
   font-family: 'Coolvetica';
   font-weight: 400;
@@ -22,7 +21,6 @@ h1 {
 }
 h2 {
   color: #fff;
-  margin-top: -200px;
   font-weight: 400;
   font-size: 20px;
   font-family: sans-serif;
