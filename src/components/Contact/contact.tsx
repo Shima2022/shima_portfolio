@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
   //preventDefault cancels the event if it is cancelable.
   const sendEmail = (e: { preventDefault: () => void; }) => {
     if (!form.current) return;
-
+    
     emailjs.sendForm(
       "service id",
       "template id",
@@ -31,6 +31,7 @@ const Contact: React.FC = () => {
   return (
 
     <div className={styles.container}>
+      <div>BACKLIGHT</div>
       <h1>
         Contact Me
       </h1>

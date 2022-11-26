@@ -10,22 +10,20 @@
 }
 
 h1 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 50px;
-  // line-height: 70vh;
-  margin: 0;
+  margin-top: 20%;
   font-family: 'Coolvetica';
-  font-weight: 400;
-  
-
+  font-weight: 400px;
 }
+
 h2 {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
   font-family: sans-serif;
   letter-spacing: 3px;
-  animation: fadeIn 1s 1.8s backwards;
+  margin-top: 5%;
 }
 
 h3 {
@@ -35,5 +33,4 @@ h3 {
   font-size: 11px;
   font-family: sans-serif;
   letter-spacing: 3px;
-  animation: fadeIn 1s 1.8s backwards;
 }

@@ -3,33 +3,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+     gap: 15px;
     // Length
     // width: 100vw;
     // height: 100vh;
-
+    
     h1 {
         height: fit-content;
         width: fit-content;
         // Text
         font-size: 40px;
         color: #a78225;
-        align-items: center;
-
+        align-items: center;       
     }
 
-}
-
-.form {
+    .form {
     flex-direction: column;
-    gap: 5px;
-
-
+}
     section {
         display: flex;
         flex-direction: column;
-
+        
         label {
-            color: aliceblue;
+            color: rgb(253, 253, 253); 
+            position: relative;
+            gap: 0.5rem;
         }
 
         input {
@@ -39,22 +37,22 @@
             outline: none;
             border-radius: 4px;
             //name&mail box
-            border: 1px solid rgb(220, 220, 220);
-
+            border: 1px solid rgb(200, 177, 177);
+            margin-top: 0.5rem;           
         }
 
         //msg box
         textarea {
+
             width: 200px;
             height: 100%;
-            padding: 10px;
+            padding: 20px;
             outline: none;
             border-radius: 4px;
             border: 1px solid rgb(220, 220, 220);
+            margin-top: 0.5rem;
         }
     }
-
-
 
     //send box
     input[type="submit"] {
@@ -63,7 +61,7 @@
         background: #a78225;
         color: rgb(255, 255, 255);
         border: none;
-        border-radius: 20px;
+        border-radius: 20px;        
     }
 }
 
