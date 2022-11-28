@@ -29,9 +29,7 @@ const Contact: React.FC = () => {
   }
 
   return (
-
     <div className={styles.container}>
-      <div>BACKLIGHT</div>
       <h1>
         Contact Me
       </h1>
