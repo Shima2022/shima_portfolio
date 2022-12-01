@@ -16,7 +16,6 @@
                Sofware developer
             </p>
        <br></br>
-       <br></br>
        <div className={styles.cvSection}>
             <h3>Work</h3>
        </div>

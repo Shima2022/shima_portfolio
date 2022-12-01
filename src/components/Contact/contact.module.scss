@@ -3,64 +3,73 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-     gap: 15px;
-    // Length
-    // width: 100vw;
-    // height: 100vh;
+    gap: 15px;
+    background-color: rgb(83, 65, 65);
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px 0 #ffffff, -5px -5px 7px 0 rgb(255, 255, 255), 5px 2px 20px 0 rgb(251, 251, 9);
+    box-sizing: content-box; width: 50vh;
+    
     
     h1 {
         height: fit-content;
         width: fit-content;
         // Text
         font-size: 40px;
-        color: #a78225;
-        align-items: center;       
+        color: #be952e;
+        align-items: center;  
+        text-shadow: 0px 0px 3px;
     }
-
+    
     .form {
-    flex-direction: column;
+        flex-direction: column;
 }
     section {
         display: flex;
         flex-direction: column;
         
-        label {
+    label {
             color: rgb(253, 253, 253); 
             position: relative;
             gap: 0.5rem;
         }
 
-        input {
+    input {
             width: 200px;
-            height: 25px;
-            padding: 4px;
+            height: 30px;
             outline: none;
-            border-radius: 4px;
+            border-radius: px;
             //name&mail box
-            border: 1px solid rgb(200, 177, 177);
-            margin-top: 0.5rem;           
+            margin-top: 5px;           
         }
 
-        //msg box
-        textarea {
+    //msg box
+    textarea {
 
             width: 200px;
             height: 100%;
             padding: 20px;
             outline: none;
             border-radius: 4px;
-            border: 1px solid rgb(220, 220, 220);
             margin-top: 0.5rem;
         }
     }
 
     //send box
     input[type="submit"] {
-        margin-top: 2rem;
-        cursor: pointer;
-        background: #a78225;
+
+        margin: 10px;
+        padding: 5px 20px;
+        font-size: 15px;
+        text-align: center;
+        background-color: #be952e;
         color: rgb(255, 255, 255);
-        border: none;
-        border-radius: 20px;        
+        border-radius: 30px; 
+        box-shadow: 0 3px;
+        opacity: 0.7;
+        cursor: pointer;
+
+    &:hover {
+        background-color: #cfca92;
     }
+ }   
 }

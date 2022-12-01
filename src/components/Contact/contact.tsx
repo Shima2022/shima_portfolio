@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
     <div className={styles.container}>
       <h1>
         Contact Me
-      </h1>
+      </h1> 
       <form className={styles.form} ref={form} onSubmit={sendEmail}>
         <section>
           <label>Name</label>
