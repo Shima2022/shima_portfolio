@@ -5,7 +5,7 @@ import Logo from '../../assets/images/logo.png'
 import LogoSubtitle from '../../assets/images/logo-sub.png'
 import { ImLinkedin, } from 'react-icons/im'
 import { FaGithub, FaFileCsv } from 'react-icons/fa'
-import { BsHouseFill, BsFillPersonFill, BsFillEnvelopeFill  } from 'react-icons/bs'
+import { BsHouseFill, BsFillEnvelopeFill } from 'react-icons/bs'
 import { useModalContext } from '@rintsin/common-components'
 import Contact from '../Contact/contact'
 
