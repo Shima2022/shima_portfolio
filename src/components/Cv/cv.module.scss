@@ -11,40 +11,45 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
+  
 }
-
-
 .container h1 {
-  color: rgb(255, 255, 255);
+  border-bottom: 3px solid  rgb(138, 114, 114);
+  box-shadow: 0 10px 10px rgba(17, 4, 4, 0.6);
+  top: 20%;
+  left: 52%;
+  color: #15424f;
   font-size: 45px;
-  margin-top: 5%;
   font-family: 'Coolvetica';
   justify-content: center;
 }
 
 .container h2 {
-  color: #b49034;
+  top: 30%;
+  left: 45%;
+  color: #15424f;
   font-size: 30px;
   font-family: LibreBaskerville-Bold;
   letter-spacing: 3px;
+  border-bottom: 3px solid  rgb(138, 114, 114);
+  box-shadow: 0 6px 10px rgba(17, 4, 4, 0.6);
 }  
-  div {
-    font-family: LibreBaskerville-Regular;
-    color: aliceblue;
-    font-size: 25px;
-    
-  }
   p {
-    font-size: 15px;
     font-family: LibreBaskerville-Regular;
-
+    color: black;
+    font-size: 20px;
+    margin-top: 22%;
   }
 
   .cvSection h3{
-    border-top: 1px dotted rgb(235, 6, 6);
-    border-width: 4px; 
-    color: #b49034;
+    border-bottom: 3px solid  rgb(138, 114, 114);
+    box-shadow: 0 6px 10px rgba(34, 7, 7, 0.6);
+    border-width: 3px; 
+    color: #15424f;
     font-size: 30px;
-    font-family: LibreBaskerville-Bold;
+    font-family: LibreBaskerville-Bold;  
+    top: 60%;
+    left: 48%;
 }
+
 

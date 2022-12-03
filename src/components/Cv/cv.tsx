@@ -8,16 +8,23 @@
  const Cv: React.FC<CvProps> = () => {
    return (
       <div className={styles.container}>
-          <h1>CURRICULUM VITAE</h1>
+          {/* <h1>CURRICULUM VITAE</h1> */}
+        <h1>
+          CURRICULUM VITAE
+        </h1> 
        <div className={styles.cvSection}></div>
           <h2>EDUCATION</h2>
+            <p>
             Vantaa Vocational College, Varia
-             <p>
-               Sofware developer
+             <br></br>
+              Sofware developer
             </p>
        <br></br>
        <div className={styles.cvSection}>
             <h3>Work</h3>
+              <p>
+                {/* Unity game */}
+              </p>
        </div>
      </div>
   )

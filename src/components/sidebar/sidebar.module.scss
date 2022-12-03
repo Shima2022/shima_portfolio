@@ -6,10 +6,10 @@
   overflow: hidden;
 
   width: #{$sidebar-width};
-  background: hsl(0, 8%, 49%);
+  background: #2b6777;
 
   height: 100%;
-  width: 40px;
+  width: 48px;
 
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -20,30 +20,68 @@
   align-items: center;
   justify-content: space-between;
 
-  //s-logo
-  .logo > img {
+  h1 {
+    margin: auto 25%;
     width: 80%;
-    margin: auto 5px;
+    align-items: baseline;
+    color: #FFDDE2FF;
+    top: 50px;
+    border-radius: 10px;
   }
-  .logo > img:first-child {
-    margin-top: 30px;
-  }
-  .logo > img:last-child {
-    margin-top: 0px;
-  }
+  //s-logo
+  // .logo > img {
+  //   width: 80%;
+  //   margin: auto 5px;
+  // }
+  // .logo > img:first-child {
+  //   margin-top: 30px;
+  // }
+  // .logo > img:last-child {
+  //   margin-top: 0px;
+  // }
   //icons
   nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 25px;
+    margin-top: 270px;
   }
+  
+  // &:after {
+  //   content: '';
+  //   font-size: 9px;
+  //   letter-spacing: 2px;
+  //   position: absolute;
+  //   bottom: 0;
+  //   display: block;
+  //   width: 100%;
+  //   text-align: center;
+  //   opacity: 0;
+  //   transition: all 0.3s ease-out;
+  // }
+  // &:first-child {
+  //   &::after {
+  //     content: 'Home';
+  //   }
+  // }
+  // .about-link {
+  //   &:after {
+  //     content: 'Cv';
+  //   }
+  // }
+  // .contact-link {
+  //   &:after {
+  //     content: 'Contact';
+  //   }
+  // }
 
   .sidebarItem {
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
 
     &:hover {
       opacity: 0.8;
