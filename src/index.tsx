@@ -20,13 +20,13 @@ root.render(
     <ModalContextProvider>
       <Router>
         <Sidebar />
-        <main>
+        {/* <main> */}
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cv' element={<Cv />} />
             {/* <Route path='/contact' element={<Contact />} /> */}
           </Routes>
-        </main>
+        {/* </main> */}
       </Router>
     </ModalContextProvider>
   </React.StrictMode>
