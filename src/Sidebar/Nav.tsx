@@ -4,7 +4,7 @@ import styles from './sidebar.module.scss';
 import { FaFileCsv } from 'react-icons/fa';
 import { BsHouseFill, BsFillEnvelopeFill } from 'react-icons/bs';
 import { useModalContext } from '@rintsin/common-components';
-import Contact from '../Contact/contact';
+import Contact from '../components/Contact/contact';
 
 //contact modali
 export const Nav: React.FC = () => {

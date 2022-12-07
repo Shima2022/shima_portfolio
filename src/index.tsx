@@ -9,7 +9,7 @@ import Cv from './components/Cv/cv';
 import './index.module.scss';
 import Home from './components/Home/home';
 import { ModalContextProvider } from '@rintsin/common-components';
-import Sidebar from './components/Sidebar/sidebar';
+import Sidebar from './Sidebar/sidebar';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
