@@ -9,7 +9,7 @@ import { BsHouseFill, BsFillEnvelopeFill  } from 'react-icons/bs'
 import { useModalContext } from '@rintsin/common-components'
 import Contact from '../Contact/contact'
 
-const sidebar: React.FC = () => {
+const Sidebar: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1>S</h1>
@@ -59,4 +59,4 @@ const SocialMedia: React.FC = () => {
   )
 }
 
-export default sidebar
+export default Sidebar
