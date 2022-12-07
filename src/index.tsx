@@ -11,7 +11,6 @@ import Home from './components/Home/home';
 import { ModalContextProvider } from '@rintsin/common-components';
 import Sidebar from './components/Sidebar/sidebar';
 
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

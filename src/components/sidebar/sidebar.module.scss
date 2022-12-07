@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  
 
   h1 {
     margin: auto 25%;
@@ -39,52 +40,31 @@
   // .logo > img:last-child {
   //   margin-top: 0px;
   // }
+  
   //icons
   nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 25px;
-    margin-top: 270px;
+    margin-top: 270px;  
   }
-  
-  // &:after {
-  //   content: '';
-  //   font-size: 9px;
-  //   letter-spacing: 2px;
-  //   position: absolute;
-  //   bottom: 0;
-  //   display: block;
-  //   width: 100%;
-  //   text-align: center;
-  //   opacity: 0;
-  //   transition: all 0.3s ease-out;
-  // }
-  // &:first-child {
-  //   &::after {
-  //     content: 'Home';
-  //   }
-  // }
-  // .about-link {
-  //   &:after {
-  //     content: 'Cv';
-  //   }
-  // }
-  // .contact-link {
-  //   &:after {
-  //     content: 'Contact';
-  //   }
-  // }
 
   .sidebarItem {
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 45px;
 
+    
     &:hover {
       opacity: 0.8;
+    }
   }
-}
+
+  div {
+   height: 10%;
+   align-items: center;
+  }
 }

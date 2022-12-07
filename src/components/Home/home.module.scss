@@ -9,22 +9,23 @@
 
 }
 //h1 hello
-body {
-  margin: 0;
-  padding: 0;
+// body {
+//   margin: 0;
+//   padding: 0;
   
-}
+// }
+
 h1 {
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 17%;
   // width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
   margin: 0;
   padding: 0;
-  color: #245765;
-  font-family: 'Coolvetica';
+  color: #12363f;
+  font-family: 'GreatVibes-Regular';
   font-size: 60px;
   text-transform: uppercase;
   border-bottom: 3px solid  rgb(22, 19, 19);
@@ -161,19 +162,19 @@ h1 span:nth-child(6):before
 h2 {
   position: absolute;
   top: 40%;
-  left: 12%;
+  left: 10%;
   color: black;
   font-weight: 400px;
   font-size: 20px;
-  font-family: sans-serif;
-  letter-spacing: 3px;
+  font-family: Tangerine-Bold;
+  letter-spacing: 2px;
 }
 
 h3 {
   position: absolute;
   top: 53%;
-  left: 12%;
-  color: #545151;
+  left: 11%;
+  color: #151414;
   margin-top: 0px;
   font-weight: 400;
   font-size: 11px;
@@ -181,5 +182,27 @@ h3 {
   letter-spacing: 3px;
 }
 
+  .logo img{   
+    width: 30vh;
+    margin-left: 70%;
+    
+  }
 
+  .logo img:nth-child(2n) {
+    background: red;
+    margin-left: 55%;
+  }
 
+  // .logo> img:first-child {
+  //   width: 20vh;
+  // }
+
+  // .logo3> img:second-child {
+  //   width: 30vh;
+  // }
+
+// .logo> img:last-child {
+//     width: 20vh;
+//     top: 80%;
+   
+// }

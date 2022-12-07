@@ -54,8 +54,9 @@ const SocialMedia: React.FC = () => {
       gap: '20px',
     }}>
       <a href="https://www.linkedin.com/in/shima-h/"><ImLinkedin color="#FFDDE2FF" size={20}/></a>
-      <a href="https://github.com/Shima2022"><FaGithub color="#FFDDE2FF" size={20}/></a>
+      <a href="https://github.com/Shima2022"><FaGithub color="#FFDDE2FF" size={22}/></a>
     </div>
   )
 }
+
 export default sidebar
