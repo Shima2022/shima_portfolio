@@ -1,45 +1,46 @@
-  import React from 'react'
- import styles from './cv.module.scss'
+import React from 'react'
+import styles from './cv.module.scss'
 
- type CvProps = {
+type CvProps = {
 
- }
+}
 
- const Cv: React.FC<CvProps> = () => {
-   return (
- 
-    <><div className={styles.star}></div>
-      <link rel="stylesheet" href="style.css" /><div className="night">
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-        <div className="star"></div>
-       
+const Cv: React.FC<CvProps> = () => {
+  return (
+    <>
+      <div className={styles.star}></div>
+      <link rel="stylesheet" href="style.css" />
+      <div className={styles.night}>
+        <div className={styles.star}></div>
+        <div className={styles.star}></div>
+        <div className={styles.star}></div>
+        <div className={styles.star}></div>
 
-       <div className={styles.container}>
-         <h1>
-           CURRICULUM VITAE
-         </h1>
-         <div className={styles.cvSection}></div>
-         <h2>EDUCATION</h2>
-         <p>
-           Vantaa Vocational College, Varia
-           <br></br>
-           Sofware developer
-         </p>
-         <br></br>
-         <div className={styles.cvSection}>
-           <h3>Work</h3>
-           <p>
-             Unity game
-             <br></br>
-             Varia project
-           </p>
-         </div>
-       </div>
-     </div></>
-   
+
+        <div className={styles.container}>
+          <h1>
+            CURRICULUM VITAE
+          </h1>
+          <div className={styles.cvSection}></div>
+          <h2>EDUCATION</h2>
+          <p>
+            Vantaa Vocational College, Varia
+            <br></br>
+            Sofware developer
+          </p>
+          <br></br>
+          <div className={styles.cvSection}>
+            <h3>Work</h3>
+            <p>
+              Unity game
+              <br></br>
+              Varia project
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
-         export default Cv
+export default Cv

@@ -30,7 +30,7 @@ const Home: React.FC<HomeProps> = () => {
     </div>
     
     <div className={styles.container}>
-        <body>
+        <div>
           <h1>
             <span>H</span>
             <span>E</span>
@@ -39,7 +39,7 @@ const Home: React.FC<HomeProps> = () => {
             <span>O</span>
             <span>!</span>
           </h1>
-        </body>
+        </div>
         <h2>Welcome to my page.My name is Shima Heidari.<br />
           I am software developer student.</h2>
         <br />

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom';
 import styles from './sidebar.module.scss';
 import { FaFileCsv } from 'react-icons/fa';

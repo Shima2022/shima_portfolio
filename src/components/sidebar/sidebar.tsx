@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './sidebar.module.scss'
 import { SocialMedia } from './SocialMedia'
 import { Nav } from './Nav'
