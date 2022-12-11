@@ -12,7 +12,8 @@ type HomeProps = {
 }
 
 const Home: React.FC<HomeProps> = () => {
-  return (    
+  return ( 
+     
     <><div>
       <input type="checkbox" id="darkmode-toggle" />
       <label htmlFor="darkmode-toggle" />
