@@ -12,24 +12,26 @@ type HomeProps = {
 }
 
 const Home: React.FC<HomeProps> = () => {
-  return (
+  return (    
     <><div>
-      {/* <img src={logo} className="css" alt="" />
-      <img src={logo2} className="html" alt="" />
-      <img src={logo3} className="js" alt="" />
-      <img src={logo4} className="react" alt="" /> */}
-
-      <Link className={styles.logo} to='/'>
-        <img src={img} className='logo' alt="logo" />
-        <img src={img2} alt="html" />
-        <img src={img3} alt="js" />
-        <img src={img4} alt="react" />
-        
-       </Link>
-       
+      <input type="checkbox" id="darkmode-toggle" />
+      <label htmlFor="darkmode-toggle" />
+      <input type="checkbox" id="darkmode-toggle" />
+      <label htmlFor="darkmode-toggle">
+      </label>
+      <div className="background"></div>
     </div>
     
-    <div className={styles.container}>
+    <div>
+        <Link className={styles.logo} to='/'>
+          <img src={img} className='logo' alt="logo" />
+          <img src={img2} alt="html" />
+          <img src={img3} alt="js" />
+          <img src={img4} alt="react" />
+        </Link>
+      </div>
+      
+      <div className={styles.container}>
         <div>
           <h1>
             <span>H</span>
@@ -49,4 +51,5 @@ const Home: React.FC<HomeProps> = () => {
       </div></>
   )
 }
-export default Home
+
+    export default Home

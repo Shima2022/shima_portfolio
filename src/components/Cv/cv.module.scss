@@ -75,7 +75,7 @@ body{
   width: 100%;
   height: 100%;
   // transform: rotate(10deg);
-  background: radial-gradient(ellipse at bottom, #0D1E31, #111);
+  // background: radial-gradient(ellipse at bottom, #0D1E31, #111);
 }
 .star {
   position: absolute;
@@ -146,7 +146,7 @@ body{
   animation-delay: 1s;
 }
 
-.star:nth-child(1)::after, .star:nth-child(1)::after{
+.star:nth-child(1)::before, .star:nth-child(1)::after{
   animation-delay: 1s;
 }
 
@@ -156,7 +156,7 @@ body{
   animation-delay: 1.2s;
 }
 
-.star:nth-child(2)::after, .star:nth-child(2)::after{
+.star:nth-child(2)::before, .star:nth-child(2)::after{
   animation-delay: 1.2s;
 }
 
@@ -166,7 +166,7 @@ body{
   animation-delay: 1.4s;
 }
 
-.star:nth-child(3)::after, .star:nth-child(3)::after{
+.star:nth-child(3)::before, .star:nth-child(3)::after{
   animation-delay: 1.4s;
 }
 
@@ -176,8 +176,8 @@ body{
   animation-delay: 1.6s;
 }
 
-.star:nth-child(4)::after, .star:nth-child(4)::after{
-  animation-delay: 1.5s;
+.star:nth-child(4)::before, .star:nth-child(4)::after{
+  animation-delay: 1.6s;
 }
 
 .star:nth-child(5){
@@ -186,6 +186,6 @@ body{
   animation-delay: 1.8s;
 }
 
-.star:nth-child(5)::after, .star:nth-child(5)::after{
+.star:nth-child(5)::before, .star:nth-child(5)::after{
   animation-delay: 1.8s;
 }

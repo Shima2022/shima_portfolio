@@ -32,7 +32,7 @@ const Cv: React.FC<CvProps> = () => {
           <div className={styles.cvSection}>
             <h3>Work</h3>
             <p>
-              Unity game
+              Unity games
               <br></br>
               Varia project
             </p>
