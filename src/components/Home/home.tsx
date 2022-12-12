@@ -13,25 +13,28 @@ type HomeProps = {
 
 const Home: React.FC<HomeProps> = () => {
   return ( 
-     
-    <><div>
+     <>
+    <div>
       <input type="checkbox" id="darkmode-toggle" />
       <label htmlFor="darkmode-toggle" />
       <input type="checkbox" id="darkmode-toggle" />
       <label htmlFor="darkmode-toggle">
       </label>
+
       <div className="background"></div>
     </div>
-    
+
+
     <div>
         <Link className={styles.logo} to='/'>
           <img src={img} className='logo' alt="logo" />
           <img src={img2} alt="html" />
           <img src={img3} alt="js" />
           <img src={img4} alt="react" />
-        </Link>
+        </Link>     
       </div>
       
+
       <div className={styles.container}>
         <div>
           <h1>
@@ -43,7 +46,7 @@ const Home: React.FC<HomeProps> = () => {
             <span>!</span>
           </h1>
         </div>
-        <h2>Welcome to my page.My name is Shima Heidari.<br />
+        <h2>Welcome to my page.My name is Shima.<br />
           I am software developer student.</h2>
         <br />
         <h3>

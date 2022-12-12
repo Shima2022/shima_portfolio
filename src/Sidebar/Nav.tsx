@@ -24,5 +24,6 @@ export const Nav: React.FC = () => {
         <BsFillEnvelopeFill onClick={display} color="#DBBEA1FF" />
       </div>
     </nav>
+
   );
 };
