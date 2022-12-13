@@ -24,41 +24,44 @@ const Cv: React.FC<CvProps> = () => {
                   <span></span>
                 </section> */}
     </div>
-    
-    <div className={styles.bubble}></div>
-    <link rel="stylesheet" type="text/css" href="style.css"></link>
-    <div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div><div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div><div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div><div className="bubble">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div><div className="bubble">
+
+      {/* <div className={styles.bubble}></div> */}
+      <div className={styles.bubble}>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
       <div className={styles.container}>
         <h1>
           CURRICULUM VITAE
