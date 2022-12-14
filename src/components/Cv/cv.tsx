@@ -7,23 +7,8 @@ type CvProps = {
 
 const Cv: React.FC<CvProps> = () => {
   return (
-    <><div>
-      {/* <div className={styles.star}></div>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-            <section>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </section> */}
-    </div>
-    
+    <>
+    {/* bubble animation */}
     <div>
         <div className={styles.bubble}>
           <span></span>

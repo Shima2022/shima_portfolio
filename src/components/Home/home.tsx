@@ -13,27 +13,17 @@ type HomeProps = {
 
 const Home: React.FC<HomeProps> = () => {
   return ( 
-      <>
-      <div>
-      <input type="checkbox" id="darkmode-toggle" />
-      <label htmlFor="darkmode-toggle" />
-      <input type="checkbox" id="darkmode-toggle" />
-      <label htmlFor="darkmode-toggle">
-      </label> 
-
-      <div className="background"></div>
+    
+    <><div>
+      <Link className={styles.logo} to='/'>
+        <img src={img} className='logo' alt="logo" />
+        <img src={img2} alt="html" />
+        <img src={img3} alt="js" />
+        <img src={img4} alt="react" />
+      </Link>
     </div>
     
-    <div>
-        <Link className={styles.logo} to='/'>
-          <img src={img} className='logo' alt="logo" />
-          <img src={img2} alt="html" />
-          <img src={img3} alt="js" />
-          <img src={img4} alt="react" />
-        </Link>
-      </div>
-      
-      <div className={styles.container}>
+    <div className={styles.container}>
         <div>
           <h1>
             <span>H</span>

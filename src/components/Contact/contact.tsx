@@ -23,7 +23,6 @@ const Contact: React.FC = () => {
     })
 
     setOK(!!docRef.id)
-
   }
 
   useEffect(() => {
