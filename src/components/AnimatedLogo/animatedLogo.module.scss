@@ -1,0 +1,32 @@
+// .container {
+//     width: 20vh;
+//     margin-left: 80%;
+//     top: 100px;
+//     position: absolute;
+//     //up-down mover
+//     -webkit-animation: mover 2s infinite alternate;
+//     // animation: mover 2s infinite alternate; 
+    
+// }
+// @keyframes mover 
+//   {
+//     0% { transform: translateY(0); }
+//     100% { transform: translateY(50px); }  
+//   }
+//   @keyframes shadow {
+//     0% { background: #b7b72543; }
+//     100% { background: #2468b0; }
+//   }
+//   .logo::before
+//   {
+//    content: "";
+//     position: absolute;
+//     height: 20px;
+//     width: 60px;
+//     border-radius: 50%;
+//     filter: blur(10px);
+//     top: 65%;
+//     left: 82%;
+//     background: rgb(183, 183, 37);
+//     animation: shadow 2s infinite alternate;
+//   }
