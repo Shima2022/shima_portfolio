@@ -9,14 +9,18 @@
   padding-left: #{$sidebar-width};
 }
 
-@media only screen and (min-width: 689px) {
-  .square {
-    width: 45px;
-    margin: 1%;
-    height: 600px;
-  }
 
-}
+// @media only screen and (min-width: 1200px) {
+//   .div {
+//     font-size: 80px;
+//   }
+// }
+
+// @media only screen and (max-width: 600px) {
+//   div {
+//     font-size: 30px;
+//   }
+// }
 
 
 //Hello
@@ -34,7 +38,7 @@ h1
   font-size: 60px;
   text-transform: uppercase;
   border-bottom: 3px solid  rgb(22, 19, 19);
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.4);
+  // box-shadow: 0 10px 10px rgba(255, 255, 255, 0.4);
 }
 h1 span 
 {
@@ -225,48 +229,48 @@ h3
    }
 
 
-  //dark&light mode 
-.switch {
-  width: 80px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgb(39, 38, 38);
-  position: relative;
-}
+//   //dark&light mode 
+// .switch {
+//   width: 80px;
+//   height: 40px;
+//   border-radius: 20px;
+//   background-color: rgb(39, 38, 38);
+//   position: relative;
+// }
 
-.flicker {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  transition: 0.3s;
-  box-shadow: 
-    inset 4px 4px 4px rgb(255,255,255),
-    inset -4px -4px 4px rgb(195 193 198 / 90%);
-}
+// .flicker {
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 15px;
+//   background-color: rgb(255, 255, 255);
+//   position: absolute;
+//   top: 5px;
+//   left: 5px;
+//   transition: 0.3s;
+//   box-shadow: 
+//     inset 4px 4px 4px rgb(255,255,255),
+//     inset -4px -4px 4px rgb(195 193 198 / 90%);
+// }
 
-.dark {
-  background-color: rgb(57, 57, 57);
-  transition: 0.3s;
-}
+// .dark {
+//   background-color: rgb(57, 57, 57);
+//   transition: 0.3s;
+// }
 
-.moon {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
-  position: absolute;
-  top: 5px;
-  left: 45px;
-}
+// .moon {
+//   width: 20px;
+//   height: 20px;
+//   border-radius: 10px;
+//   box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+//   position: absolute;
+//   top: 5px;
+//   left: 45px;
+// }
 
-.dark .flicker {
-  transform: translateX(40px);
-}
+// .dark .flicker {
+//   transform: translateX(40px);
+// }
 
-.dark > * {
- color:rgb(255, 255, 255);
-}
+// .dark > * {
+//  color:rgb(255, 255, 255);
+// }

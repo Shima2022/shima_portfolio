@@ -25,6 +25,7 @@
         position: relative;
         margin-top: 10%;
         margin-left: 30%;
+        border-bottom: 1px;
     }
 
     .form 
@@ -42,8 +43,9 @@
             color: rgb(253, 253, 253);
             position: relative;
             gap: 0.5rem;
+            left: 2px;
+            margin: 0;          
         }
-
         input 
         {
             width: 200px;
@@ -51,7 +53,8 @@
             outline: none;
             border-radius: 5px;
             //name&mail box
-            margin-top: 5px;
+            margin-top: 2px;
+            
         }
 
         //msg box
@@ -77,13 +80,14 @@
         color: rgb(255, 255, 255);
         border: 2px solid #333;
         border-radius: 10px;
-        box-shadow: 0px 5px 10px 0px rgba(4, 252, 252, 0.7);
-
+        // box-shadow: 0px 5px 10px 0px rgba(4, 252, 252, 0.7);
+       
         &:hover 
         {
             background-color: #9f8d8d;
             transform: translateX(5px);
-            box-shadow: inset 0px 10px 20px 2px rgba(8, 117, 117, 0.7);
+            // box-shadow: inset 0px 10px 20px 2px rgba(8, 117, 117, 0.7);
         }
     }
 }
+

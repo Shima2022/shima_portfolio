@@ -33,41 +33,43 @@ const Contact: React.FC = () => {
   return (
     
     <div className={styles.container}>
-        <h1>
-          Contact Me
-        </h1>
-        <form className={styles.form} onSubmit={(e) => handleSend(e)}>
-          <section>
-            <label>Name</label>
-            <input
-              type='text'
-              required
-              name='name'
-              value={name}
-              onChange={(e) => setName(e.target.value)} />
-          </section>
-          <section>
-            <label>Email</label>
-            <input
-              type='email'
-              required
-              name='mail'
-              value={email}
-              onChange={(e) => setemail(e.target.value)} />
-          </section>
-          <section>
-            <label>Message</label>
-            <textarea
-              name='message'
-              required
-              value={message}
-              onChange={(e) => setmessage(e.target.value)} />
-          </section>
-          <input type='submit' value='Send' />
-        </form>
-      </div>
+      <h1>
+        Contact Me
+      </h1>
+      <form className={styles.form} onSubmit={(e) => handleSend(e)}>
+        <section>
+          <label>Name</label>
+          <input
+            type='text'
+            required
+            name='name'
+            value={name}
+            onChange={(e) => setName(e.target.value)} />
+        </section>
+        <section>
+          <label>Email</label>
+          <input
+            type='email'
+            required
+            name='mail'
+            value={email}
+            onChange={(e) => setemail(e.target.value)} />
+        </section>
+        <section>
+          <label>Message</label>
+          <textarea
+            name='message'
+            required
+            value={message}
+            onChange={(e) => setmessage(e.target.value)} />
+        </section>
+        <input type='submit' value='Send' />
+      </form>
+    </div>
+
   )
 }
 
-export default Contact
+        export default Contact
 
+      

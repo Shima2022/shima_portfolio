@@ -7,7 +7,7 @@ type CvProps = {
 
 const Cv: React.FC<CvProps> = () => {
   return (
-    <>
+    <>   
     {/* bubble animation */}
     <div>
         <div className={styles.bubble}>
@@ -46,20 +46,23 @@ const Cv: React.FC<CvProps> = () => {
           <span></span>
     </div>
 
+      {/* Cv */}
         <div className={styles.container}>
-          <h1>
-            CURRICULUM VITAE
-          </h1>
+          <h1>CURRICULUM VITAE</h1>
+          
           <div className={styles.cvSection}></div>
           <h2>EDUCATION</h2>
-          <p>Vantaa Vocational College, Varia<br></br>
-            Sofware developer</p>
 
-          <br></br>
+              <p>Vantaa Vocational College, Varia</p>
+                <br></br>
+              <p>Sofware developer</p>  
+                <br></br>
+
           <div className={styles.cvSection}>
-            <h3>Work</h3>
-            <p>Unity games <br></br>
-              Varia project</p>
+          <h3>Work</h3>
+              <p>Unity games</p> 
+                <br></br>
+               <p> Varia project</p>
           </div>
         </div>
       </div>

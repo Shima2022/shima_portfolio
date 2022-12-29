@@ -6,7 +6,6 @@ import img3 from '../../assets/img/js.png'
 import img4 from '../../assets/img/react.png'
 
 
-
 type HomeProps = {
 
 }
@@ -21,17 +20,6 @@ const Home: React.FC<HomeProps> = () => {
         <img src={img3} alt="js" />
         <img src={img4} alt="react" />
         </div>
-
-
-      {/* toggle */}
-      <div>
-        <input type="checkbox" id="darkmode-toggle" />
-        <label htmlFor="darkmode-toggle" />
-        <input type="checkbox" id="darkmode-toggle" />
-        <label htmlFor="darkmode-toggle">
-        </label>
-        <div className="background"></div>
-
 
 
       <div className={styles.container}>
@@ -52,7 +40,6 @@ const Home: React.FC<HomeProps> = () => {
         <h3>
           Software developer
         </h3>
-      </div>
       </div>
       </div>
   )
