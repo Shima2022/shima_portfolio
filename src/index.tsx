@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 import Cv from './components/Cv/cv';
 import './index.module.scss';
-import Home from './components/Home/home';
 import { ModalContextProvider } from '@rintsin/common-components';
 import Sidebar from './Sidebar/sidebar';
+import Home from './components/Home/home'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

@@ -191,42 +191,154 @@ h3
   font-family: sans-serif;
   letter-spacing: 3px;
 }
+.logo img
+{   
+  width: 17vh;
+  margin-left: 80%;
+  //up-down mover
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+} 
+.logo img:nth-child(2n) {
+  margin-left: 65%;
+  width: 17vh;
+}
+@keyframes mover 
+{
+  0% { transform: translateY(0); }
+  100% { transform: translateY(50px); }  
+}
 
-  .logo img
-  {   
-    width: 17vh;
-    margin-left: 80%;
-    //up-down mover
-    -webkit-animation: mover 2s infinite alternate;
-    animation: mover 2s infinite alternate;
-  } 
-  .logo img:nth-child(2n) {
-    margin-left: 65%;
-    width: 17vh;
-  }
-  @keyframes mover 
-  {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(50px); }  
-  }
+@keyframes shadow {
+  0% { background: #b7b72543; }
+  100% { background: #b7b725; }
+}
 
-  @keyframes shadow {
-    0% { background: #b7b72543; }
-    100% { background: #b7b725; }
-  }
+.logo::before{
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 60px;
+  border-radius: 50%;
+  filter: blur(10px);
+  top: 65%;
+  left: 82%;
+  background: rgb(183, 183, 37);
+  animation: shadow 2s infinite alternate;
+ }
 
-  .logo::before{
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 60px;
-    border-radius: 50%;
-    filter: blur(10px);
-    top: 65%;
-    left: 82%;
-    background: rgb(183, 183, 37);
-    animation: shadow 2s infinite alternate;
-   }
+
+
+
+
+
+
+
+
+
+
+
+// ::before {
+//   content: "";
+//   position: absolute;
+//   height: 20px;
+//   width: 60px;
+//   border-radius: 50%;
+//   filter: blur(10px);
+//   top: 65%;
+//   left: 82%;
+//   background: rgb(183, 183, 37);
+//   animation: shadow 2s infinite alternate;
+// }
+
+// .logo img:nth-child(2)::after {
+//   position: relative;
+//   height: 20px;
+//   width: 60px;
+//   border-radius: 50%;
+//   filter: blur(10px);
+//   top: 75%; /* Adjust the top position as per your requirement */
+//   left: 25%; /* Adjust the left position as per your requirement */
+//   background: rgba(255, 0, 0, 0.3); /* Red shadow */
+//   animation: shadow2 2s infinite alternate;
+// }
+
+// #img3::after {
+//   position: relative;
+//   height: 20px;
+//   width: 60px;
+//   border-radius: 50%;
+//   filter: blur(10px);
+//   top: 55%;
+//   left: 42%;
+//   background: rgba(25, 93, 203, 0.3); 
+//   animation: shadow 2s infinite alternate;
+// }
+
+// #img4::after {
+//   position: relative;
+//   height: 20px;
+//   width: 60px;
+//   border-radius: 50%;
+//   filter: blur(10px);
+//   top: 75%; 
+//   left: 25%; 
+//   background: rgba(89, 138, 218, 0.3);
+//   animation: shadow 2s infinite alternate;
+// }
+
+// @keyframes mover {
+//   0% {
+//     transform: translateY(0);
+//   }
+//   50% {
+//     transform: translateY(-10px);
+//   }
+//   100% {
+//     transform: translateY(0);
+//   }
+// }
+
+// @keyframes shadow {
+//   0% {
+//     background: #9f9f1f43;
+//   }
+//   100% {
+//     background: rgb(183, 183, 37);
+//   }
+// }
+
+// @keyframes shadow2 {
+//   0% {
+//     background: #9f9f1f43;
+//   }
+//   100% {
+//     background: rgba(255, 0, 0, 0.8);
+//   }
+  
+// }
+
+// @keyframes shadow3 {
+//   0% {
+//     background: #9f9f1f43;
+//   }
+//   100% {
+//     background: rgba(25, 93, 203, 0.3); 
+//   }
+// }
+
+// @keyframes shadow4 {
+//   0% {
+//     background: #9f9f1f43;
+//   }
+//   100% {
+//     background: rgba(89, 138, 218, 0.3);
+//   }
+// }
+
+
+
+
 
 
 //   //dark&light mode 
@@ -273,4 +385,34 @@ h3
 
 // .dark > * {
 //  color:rgb(255, 255, 255);
+// }
+
+
+// .logo-img::before {
+//   content: "";
+//   position: absolute;
+//   height: 20px;
+//   width: 60px;
+//   border-radius: 50%;
+//   filter: blur(10px);
+//   background: rgb(183, 183, 37);
+//   animation: shadow 2s infinite alternate;
+// }
+
+// .logo-img.logo-img-1::before {
+//   background: rgba(255, 0, 0, 0.3); /* Red shadow */
+//   top: 75%; /* Adjust the top position as per your requirement */
+//   left: 25%; /* Adjust the left position as per your requirement */
+// }
+
+// .logo-img.logo-img-2::before {
+//   background: rgba(0, 255, 0, 0.3); /* Green shadow */
+//   top: 55%; /* Adjust the top position as per your requirement */
+//   left: 15%; /* Adjust the left position as per your requirement */
+// }
+
+// .logo-img.logo-img-3::before {
+//   background: rgba(0, 0, 255, 0.3); /* Blue shadow */
+//   top: 55%; /* Adjust the top position as per your requirement */
+//   left: 42%; /* Adjust the left position as per your requirement */
 // }

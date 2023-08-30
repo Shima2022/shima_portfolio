@@ -50,19 +50,27 @@ const Cv: React.FC<CvProps> = () => {
         <div className={styles.container}>
           <h1>CURRICULUM VITAE</h1>
           
-          <div className={styles.cvSection}></div>
+          {/* <div className={styles.cvSection}></div>
           <h2>EDUCATION</h2>
 
               <p>Vantaa Vocational College, Varia</p>
                 <br></br>
               <p>Sofware developer</p>  
-                <br></br>
+                <br></br> */}
 
           <div className={styles.cvSection}>
-          <h3>Work</h3>
-              <p>Unity games</p> 
-                <br></br>
-               <p> Varia project</p>
+          <h3>Experience</h3>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br><br></br><br></br>
+               <p>Varia-ict/conference-room-display</p>
+               <p>SQLInjection</p> 
+               <p>Kyberturvallisuus verkkosivu (wordpress)</p>
+               <p>ABB i-buss KNX Switch Actuator/backend/Lokkit Oy</p>
           </div>
         </div>
       </div>
