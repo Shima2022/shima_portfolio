@@ -9,6 +9,8 @@
   flex-direction: column;
   align-items: flex-start; /* Align the sections on the left side */
   margin-top: -45px;
+  display: block;
+  margin: 0.5rem 0;
 }
 
 .container h1 {
@@ -25,12 +27,13 @@
 
 .container h2 {
   top: 30%;
-  left: 10%;
+  left: 40%;
   color: #15424f;
   font-size: 30px;
   font-family: LibreBaskerville-Bold;
   letter-spacing: 3px;
   margin-top: 10px;
+  
 
   /* Adjusted styles for better spacing */
   margin-bottom: 20px; /* Add some space below the heading */
@@ -43,6 +46,7 @@
   align-items: center;
   text-align: center;
   margin-top: 30px; /* Adjust the margin between sections */
+  margin-left: 10%;
 }
 
 .cvSection p {
@@ -54,6 +58,7 @@
 }
 
 // .cvSection h3 {
+//   display: block;
 //   color: #15424f;
 //   font-size: 35px;
 //   font-family: LibreBaskerville-Bold;
