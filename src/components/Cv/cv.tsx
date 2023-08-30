@@ -59,7 +59,7 @@ const Cv: React.FC<CvProps> = () => {
           <div className={styles.cvSection}>
           <p>Varia-ict/conference-room-display</p>
           <p>SQLInjection</p> 
-          <p>Kyberturvallisuus verkkosivu (wordpress) (wordpress)</p>
+          <p>Kyberturvallisuus verkkosivu (wordpress)</p>
           <p>ABB i-buss KNX Switch Actuator/backend/Lokkit Oy </p>
           </div>
         </div>
